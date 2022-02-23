@@ -6,7 +6,6 @@ const userRouter = require('./routes/userRoutes');
 
 const app = express();
 
-// Middleware
 app.use(morgan('dev'));
 
 app.use(express.json());
